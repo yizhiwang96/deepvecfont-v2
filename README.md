@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python test_few_shot.py --mode test --name_exp dvf_base_e
 Note that you can modify `ref_char_ids` to define which characters are used as references.
 The synthesized candidates are in `./experiments/{exp_name}/results/{font_id}/svgs_single`, and the selected results (by IOU) is in `./experiments/{exp_name}/results/{font_id}/svgs_merge`.
 
-In the testing phase, we run the model for `n_samples` times to generate multiple candidates, and in each time a random noise is injected (see [code]()). 
+In the testing phase, we run the model for `n_samples` times to generate multiple candidates, and in each time a random noise is injected (see [code](https://github.com/yizhiwang96/deepvecfont-v2/blob/c07d1d3a3a9ea491caecc879607c63d59aace1cd/models/transformers.py#L450)). 
 Currently we use IOU as the metric to pick the candidate, which sometimes cannot find the best result. You can manually check all the candidates.
 
 ## Testing (Font interpolation and Random Generation)
