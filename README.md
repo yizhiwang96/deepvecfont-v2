@@ -28,7 +28,7 @@ The dataset used can be found in [Onedrive](https://1drv.ms/u/s!AkDQSKsmQQCghdBA
 (3) `font_sfds`: the sfd files extracted by FontForge.
 (4) `vecfont_dataset`: the processed files ready for training/testing.
 
-The train/test split in our paper can be found in [v1_train_font_ids.txt](https://github.com/yizhiwang96/deepvecfont-v2/blob/main/statics/v1_train_font_ids.txt) and [v1_test_font_ids.txt](https://github.com/yizhiwang96/deepvecfont-v2/blob/main/statics/v1_test_font_ids.txt).
+The train/test split in this released dataset is slightly different to what was used in our paper. The original train/test split in our paper can be found in [v1_train_font_ids.txt](https://github.com/yizhiwang96/deepvecfont-v2/blob/main/statics/v1_train_font_ids.txt) and [v1_test_font_ids.txt](https://github.com/yizhiwang96/deepvecfont-v2/blob/main/statics/v1_test_font_ids.txt).
 
 ## Trained Checkpoints
 
